@@ -1,0 +1,70 @@
+.container {
+  border: 2px solid #a2a2a6;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.cool-blue {
+  background-color: #2d5dcc;
+  color: white;
+}
+
+.pink {
+  background-color: #d957d9;
+}
+
+.mint-green {
+  background-color: #4fe0b0;
+}
+
+.beige {
+  background-color: #EFD9CA;
+}
+
+.color-panel {
+  display: inline-block;
+  width: 32%
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+}
+
+p {
+  padding: 10px;
+}
+
+.cool-blue:hover {
+  border: 5px solid #2d5dcc;
+  background-color: white;
+  color: #2d5dcc;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.pink:hover {
+  border: 5px solid #d957d9;
+  background-color: white;
+  color: #d957d9;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.mint-green:hover {
+  border: 5px solid #4fe0b0;
+  background-color: white;
+  color: #4fe0b0;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.beige:hover {
+  border: 5px solid #efd9ca;
+  background-color: white;
+  color: #efd9ca;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
